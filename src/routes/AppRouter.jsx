@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Inicio from '../pages/Inicio'
-import Productos from '../pages/Productos'
+import Productos from '../components/Productos'
 import Contacto from '../pages/Contacto'
 
 function AppRouter() {
