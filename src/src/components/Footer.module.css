@@ -1,0 +1,85 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #cccccc;
+  padding: 3rem 2rem 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.brand {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #999999;
+}
+
+.colTitle {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #ffffff;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.linkList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.linkList a {
+  color: #999999;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.linkList a:hover {
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.socials a {
+  color: #999999;
+  transition: color 0.2s;
+}
+
+.socials a:hover {
+  color: #ffffff;
+}
+
+.divider {
+  border-top: 1px solid #333333;
+  margin: 1rem 0;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666666;
+  padding-top: 0.5rem;
+}
